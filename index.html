@@ -60,6 +60,65 @@
         </article>
       </section>
 
+      <!-- Formulario de contacto -->
+
+      <section class="formulario">
+        <form
+          action="https://formsubmit.co/analistasilvi@gmail.com"
+          method="POST"
+        />
+
+        <fieldset>
+          <legend>Formulario de Contacto</legend>
+          <article id="img-form">
+            <img src="images/logo.jpg" alt="logo" />
+          </article>
+
+          <article id="form-cajas">
+            <input
+              name="name"
+              type="text"
+              placeholder="Nombre"
+              title="el nombre solo acepta letras y espacios"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              required
+            />
+          </article>
+
+          <article id="form-cajas">
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              title="Formato de correo incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+              required
+            />
+          </article>
+
+          <article id="form-cajas">
+            <input
+              name="asunto"
+              type="text"
+              placeholder="Asunto"
+              title="El Asunto es requerido"
+              required
+            />
+          </article>
+
+          <article id="comentarios">
+            <textarea
+              name="comentario"
+              type="comentario"
+              required
+              placeholder="Déjenos sus comentarios"
+            ></textarea>
+          </article>
+
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </section>
+      <!-- 
       <article class="contactoSectionClase" id="cuatro">
         <section class="contactoSection">
           <iframe
@@ -70,7 +129,7 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </section>
-      </article>
+      </article> -->
     </main>
     <footer id="footer">
       <h3>Copyright © 2023 Ruta 66 :: sitio desarrollado con 💜</h3>

@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: 100%;
+  height: 10vh;
+  padding-top: 2vh;
+  background-color: rgb(23, 172, 23);
+  text-align: center;
+  text-shadow: 4px 3px 5px darkgoldenrod;
+  font-style: bold;
+  /* opacity: 70%; */
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tres {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.uc-left {
+  text-decoration: none;
+  width: 25%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: green;
+  box-shadow: 5px 5px 15px black;
+  margin-top: 15px;
+}
+
+.uc-left img {
+  width: 100%;
+  height: 225px;
+  border-radius: 1em;
+  padding: 10px 10px 0 10px;
+}
+
+.uc-left p {
+  text-align: center;
+  font-size: 1em;
+  padding-top: 2%;
+  opacity: 70%;
+  color: black;
+  font-style: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.uc-center {
+  width: 25%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: cadetblue;
+  box-shadow: 5px 5px 15px black;
+  margin-top: 15px;
+}
+
+.uc-center img {
+  width: 100%;
+  height: 225px;
+  padding: 10px 20px 0 20px;
+}
+
+.uc-center a {
+  color: white;
+}
+
+.uc-right {
+  width: 25%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: darkblue;
+  box-shadow: 5px 5px 15px black;
+  margin-top: 15px;
+}
+
+.uc-right img {
+  width: 100%;
+  height: 225px;
+  border-radius: 1em;
+  padding: 10px 10px 0 10px;
+}
+
+.uc-right p {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 1.2em;
+  opacity: 70%;
+  color: white;
+  font-style: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.uc-right a {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em 1em 1em 1em;
+}
+
+.flex-container img {
+  width: 130%;
+  height: 200px;
+  margin-top: 1em;
+  border-radius: 1em;
+  box-shadow: 5px 5px 15px black;
+}

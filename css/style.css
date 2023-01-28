@@ -42,7 +42,7 @@
   .menu ul {
     display: flex;
     list-style-type: none;
-    margin: 0 10px 0px 20px;
+    margin: 0 10px 10px 20px;
   }
 
   .menu li a {
@@ -63,20 +63,50 @@
     opacity: 70%;
   }
 
-  .img-principal img {
-    display: block;
+  section #portada {
+    display: flex;
     width: 80%;
-    height: 27em;
+    height: 430px;
+    justify-content: space-around;
     margin: 0 auto;
+    padding-top: 100px;
     box-shadow: 10px 10px 15px black;
-    border: 2px solid gray;
     border-radius: 1em;
+  }
+
+  section #portada .img-principal {
+    box-shadow: 10px 10px 50px black;
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: 0.5s ease;
+    border-radius: 5px;
+  }
+
+  section #portada .img-principal:hover {
+    box-shadow: 10px 15px 100px black;
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
   }
 
   .flex-container {
     display: flex;
     justify-content: space-evenly;
     margin: 2em 1em 1em 1em;
+  }
+
+  .flex-container:hover {
+    background-color: whitesmoke;
+    opacity: 0.9;
   }
 
   .flex-container img {
@@ -103,6 +133,11 @@
     display: flex;
     justify-content: space-evenly;
     margin: 1em 1em 2em 1em;
+  }
+
+  .flex-container-2:hover {
+    background-color: whitesmoke;
+    opacity: 0.9;
   }
 
   .flex-container-2 img {

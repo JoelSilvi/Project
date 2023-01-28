@@ -15,9 +15,10 @@ h1 {
   text-align: center;
   text-shadow: 4px 3px 5px darkgoldenrod;
   font-style: bold;
-  /* opacity: 70%; */
+  opacity: 70%;
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
+  border-top: #f60 5px solid;
 }
 
 .tres {

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Gemunu+Libre:wght@300&family=Permanent+Marker&family=Roboto:wght@700&display=swap");
+
 *,
 *::after,
 *::before {
@@ -43,14 +45,14 @@
     display: flex;
     list-style-type: none;
     margin: 0 10px 10px 20px;
+    font-family: "Permanent Marker", cursive;
   }
 
   .menu li a {
     text-decoration: none;
     color: black;
     margin: 0 10px 0px 20px;
-    font-size: 1em;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
   }
 
   .menu li a:hover {
@@ -58,7 +60,6 @@
     opacity: 78%;
     border-bottom: orangered 4px solid;
     border-top: orangered 4px solid;
-    /* color: darkorange; */
     color: black;
     opacity: 70%;
   }
@@ -122,11 +123,16 @@
     align-self: center;
     margin-right: 0.1em;
     font-size: 1.2em;
-    font-family: sans-serif;
+    font-family: "Permanent Marker", cursive;
     font-weight: bold;
     color: #f60;
-    text-shadow: 5px 5px 15px #f60;
-    width: 40%;
+  }
+
+  .flex-container p span {
+    font-size: 1.3em;
+    font-family: "Permanent Marker", cursive;
+    border-bottom: double 10px #f60;
+    color: black;
   }
 
   .flex-container-2 {
@@ -150,14 +156,19 @@
 
   .flex-container-2 p {
     text-align: center;
-    align-self: center;
     margin-right: 0.1em;
     font-size: 1.2em;
-    font-family: sans-serif;
+    font-family: "Permanent Marker", cursive;
     font-weight: bold;
-    width: 40%;
     color: black;
-    text-shadow: 5px 5px 15px black;
+    align-self: center;
+  }
+
+  .flex-container-2 p span {
+    color: #f60;
+    font-size: 1.3em;
+    font-family: "Permanent Marker", cursive;
+    border-bottom: double 10px black;
   }
 
   .tres {

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Gemunu+Libre:wght@300&family=Permanent+Marker&family=Roboto:wght@700&display=swap");
+
 *,
 *::after,
 *::before {
@@ -7,24 +9,24 @@
   padding: 0;
 }
 
+body {
+  background-image: url(/images/fondo_services.jpg);
+}
+
 h1 {
   width: 100%;
-  height: 10vh;
-  padding-top: 2vh;
-  background-color: rgb(23, 172, 23);
+  height: 5vh;
   text-align: center;
-  text-shadow: 4px 3px 5px darkgoldenrod;
-  font-style: bold;
-  opacity: 70%;
-  font-size: 50px;
-  font-family: "Courier New", Courier, monospace;
+  font-size: 80px;
+  font-family: "Permanent Marker", cursive;
   border-top: #f60 5px solid;
+  padding-top: 10px;
+  margin-bottom: 100px;
 }
 
 .tres {
   display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
+  justify-content: space-evenly;
   width: 100%;
   height: 350px;
   margin-top: 10px;
@@ -32,9 +34,8 @@ h1 {
 
 .uc-left {
   text-decoration: none;
-  width: 25%;
-  height: 300px;
-  border: 1px solid black;
+  width: 20%;
+  height: 250px;
   border-radius: 1em;
   background-color: green;
   box-shadow: 5px 5px 15px black;
@@ -43,26 +44,25 @@ h1 {
 
 .uc-left img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   border-radius: 1em;
   padding: 10px 10px 0 10px;
 }
 
 .uc-left p {
   text-align: center;
-  font-size: 1em;
+  font-size: 2vh;
   padding-top: 2%;
   opacity: 70%;
-  color: black;
+  color: white;
   font-style: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .uc-center {
-  width: 25%;
-  height: 300px;
-  border: 1px solid black;
+  width: 20%;
+  height: 250px;
   border-radius: 1em;
   background-color: cadetblue;
   box-shadow: 5px 5px 15px black;
@@ -71,7 +71,7 @@ h1 {
 
 .uc-center img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   padding: 10px 20px 0 20px;
 }
 
@@ -80,9 +80,8 @@ h1 {
 }
 
 .uc-right {
-  width: 25%;
-  height: 300px;
-  border: 1px solid black;
+  width: 20%;
+  height: 250px;
   border-radius: 1em;
   background-color: darkblue;
   box-shadow: 5px 5px 15px black;
@@ -91,24 +90,20 @@ h1 {
 
 .uc-right img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   border-radius: 1em;
   padding: 10px 10px 0 10px;
 }
 
 .uc-right p {
   text-align: center;
-  padding-top: 5%;
-  font-size: 1.2em;
+  font-size: 2vh;
+  padding-top: 2%;
   opacity: 70%;
   color: white;
   font-style: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.uc-right a {
-  color: white;
 }
 
 .flex-container {

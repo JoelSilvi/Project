@@ -27,7 +27,13 @@ h1 {
   margin-bottom: 100px;
 }
 
-.tres {
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.pro {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -40,7 +46,7 @@ h1 {
   width: 20%;
   height: 250px;
   border-radius: 1em;
-  background-color: green;
+  background-color: darkgoldenrod;
   box-shadow: 5px 5px 15px black;
   margin-top: 15px;
 }
@@ -54,39 +60,19 @@ h1 {
 
 .uc-left p {
   text-align: center;
-  font-size: 2vh;
+  font-size: 3vh;
   padding-top: 2%;
   opacity: 70%;
-  color: white;
+  color: navy;
   font-style: bold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.uc-center {
-  width: 20%;
-  height: 250px;
-  border-radius: 1em;
-  background-color: cadetblue;
-  box-shadow: 5px 5px 15px black;
-  margin-top: 15px;
-}
-
-.uc-center img {
-  width: 100%;
-  height: 200px;
-  padding: 10px 20px 0 20px;
-}
-
-.uc-center a {
-  color: white;
+  font-family: "Permanent Marker", cursive;
 }
 
 .uc-right {
   width: 20%;
   height: 250px;
   border-radius: 1em;
-  background-color: darkblue;
+  background-color: darkgoldenrod;
   box-shadow: 5px 5px 15px black;
   margin-top: 15px;
 }
@@ -103,8 +89,7 @@ h1 {
   font-size: 2vh;
   padding-top: 2%;
   opacity: 70%;
-  color: white;
+  color: navy;
   font-style: bold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Permanent Marker", cursive;
 }

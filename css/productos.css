@@ -16,12 +16,11 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   color: navajowhite;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   border-top: #f60 5px solid;
-  padding-bottom: 20px;
 }
 
 a:link,
@@ -35,30 +34,31 @@ a:active {
   justify-content: space-evenly;
   width: 100%;
   height: 180px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .box-int {
   width: 20%;
   height: 150px;
-  border-radius: 1em;
-  background-color: darkgoldenrod;
-  box-shadow: 5px 5px 15px black;
 }
 
 .box-int img {
   width: 100%;
-  height: 100px;
-  border-radius: 1em;
-  padding: 10px 10px 0 10px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px black;
+  border: 4px solid grey;
 }
 
 .box-int p {
   text-align: center;
   font-size: 1.3vh;
   opacity: 70%;
-  color: navy;
+  color: white;
   font-style: bold;
   font-family: "Permanent Marker", cursive;
+  padding: 3px;
 }
 
 @media screen and (min-width: 768px) {
@@ -67,38 +67,28 @@ a:active {
     justify-content: space-evenly;
     width: 100%;
     height: 300px;
-    /* margin-top: 10px; */
   }
 
   h1 {
     font-size: 4em;
-
-    /* border: 10px solid green; */
   }
   .box-int {
     text-decoration: none;
     width: 20%;
     height: 250px;
-    border-radius: 1em;
-    background-color: darkgoldenrod;
-    box-shadow: 5px 5px 15px black;
-    /* margin-top: 15px; */
+    margin: 2px;
   }
 
   .box-int img {
     width: 100%;
     height: 200px;
-    border-radius: 1em;
-    padding: 10px 10px 0 10px;
   }
 
   .box-int p {
     text-align: center;
-    font-size: 1.3vh;
+    font-size: 1.8vh;
     padding-top: 2%;
     opacity: 70%;
-    color: navy;
-    font-style: bold;
-    font-family: "Permanent Marker", cursive;
+    color: white;
   }
 }

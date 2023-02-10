@@ -10,14 +10,13 @@
 }
 
 body {
-  background-image: url(/images/fondo_productos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #1b1b1b;
+  height: 100vh;
 }
 
 h1 {
   font-size: 3em;
-  color: navajowhite;
+  color: white;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   border-top: #f60 5px solid;
@@ -31,9 +30,10 @@ a:active {
 
 .pro {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  height: 180px;
+  height: 18vh;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -47,8 +47,8 @@ a:active {
   width: 100%;
   height: 150px;
   border-radius: 50%;
-  box-shadow: 5px 5px 15px black;
-  border: 4px solid grey;
+  box-shadow: 5px 5px 15px rgb(161, 102, 102);
+  border: 4px solid rgb(56, 55, 55);
 }
 
 .box-int p {
@@ -59,6 +59,24 @@ a:active {
   font-style: bold;
   font-family: "Permanent Marker", cursive;
   padding: 3px;
+}
+
+#footer {
+  width: 100%;
+  min-height: 34%;
+  position: relative;
+}
+
+#footer h3 {
+  background-color: black;
+  font-size: 3vw;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: monospace;
 }
 
 @media screen and (min-width: 768px) {

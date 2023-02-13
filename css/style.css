@@ -57,14 +57,13 @@
 
   .menu li a:hover {
     text-decoration: none;
-    opacity: 78%;
     border-bottom: orangered 4px solid;
     border-top: orangered 4px solid;
     color: black;
     opacity: 70%;
   }
 
-  section #portada {
+  #portada {
     display: flex;
     width: 80%;
     height: 430px;
@@ -75,7 +74,7 @@
     border-radius: 1em;
   }
 
-  section #portada .img-principal {
+  #portada .img-principal {
     box-shadow: 10px 10px 50px black;
     width: 0;
     flex-grow: 1;
@@ -85,7 +84,7 @@
     border-radius: 5px;
   }
 
-  section #portada .img-principal:hover {
+  #portada .img-principal:hover {
     box-shadow: 10px 15px 100px black;
     cursor: pointer;
     width: 300px;
@@ -99,89 +98,64 @@
     text-decoration: none;
   }
 
-  .flex-container {
+  .double_container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
     margin: 2em 1em 1em 1em;
   }
 
-  .flex-container:hover {
+  .double_container:hover {
     background-color: whitesmoke;
     opacity: 0.9;
   }
 
-  .flex-container img {
-    width: 30%;
+  .double_container img {
+    width: 30vw;
     height: 200px;
     margin-top: 1em;
     border-radius: 1em;
     border: 2px solid gray;
   }
 
-  .flex-container p {
+  .double_container p {
+    width: 35vw;
     text-align: center;
-    align-self: center;
-    margin-right: 0.1em;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: "Permanent Marker", cursive;
     font-weight: bold;
     color: #f60;
   }
 
-  .flex-container p span {
+  .double_container span {
     font-size: 1.3em;
     font-family: "Permanent Marker", cursive;
     border-bottom: double 10px #f60;
     color: black;
   }
 
-  .flex-container-2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 1em 1em 2em 1em;
-  }
-
-  .flex-container-2:hover {
-    background-color: whitesmoke;
-    opacity: 0.9;
-  }
-
-  .flex-container-2 img {
-    width: 30%;
-    height: 200px;
-    margin-top: 1em;
-    border-radius: 1em;
-    border: 2px solid gray;
-  }
-
-  .flex-container-2 p {
-    text-align: center;
-    margin-right: 0.1em;
-    font-size: 1.2em;
-    font-family: "Permanent Marker", cursive;
-    font-weight: bold;
+  .double_container .cont-p {
     color: black;
-    align-self: center;
   }
 
-  .flex-container-2 p span {
+  .double_container .cont-span {
     color: #f60;
-    font-size: 1.3em;
-    font-family: "Permanent Marker", cursive;
-    border-bottom: double 10px black;
+    border-bottom: black 10px double;
   }
 
-  .tres {
+  .knowledge {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     width: 100%;
     height: 350px;
     margin-top: 10px;
-    background-color: dodgerblue;
+    background-color: rgb(231, 221, 221);
   }
 
-  .uc-left {
+  .triple_container {
     width: 25%;
     height: 300px;
     border: 1px solid black;
@@ -191,84 +165,29 @@
     margin-top: 15px;
   }
 
-  .uc-left img {
+  .triple_container img {
     width: 100%;
     height: 225px;
     border-radius: 1em;
     padding: 10px 10px 0 10px;
   }
 
-  .uc-left p {
+  .knowledge .triple_container p {
     text-align: center;
     margin: 20px 10px 0 10px;
+    color: snow;
+    font-family: "Courier New", Courier, monospace;
     text-shadow: 5px 5px 15px black;
     font-style: italic;
     font-size: 1.2em;
-    opacity: 70%;
+    /* opacity: 70%; */
   }
 
-  .uc-left a {
-    color: white;
-  }
-
-  .uc-center {
-    width: 25%;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 1em;
+  .triple_container:nth-child(2) {
     background-color: red;
-    box-shadow: 5px 5px 15px black;
-    margin-top: 15px;
   }
-
-  .uc-center img {
-    width: 100%;
-    height: 225px;
-    border-radius: 1em;
-    padding: 10px 10px 0 10px;
-  }
-
-  .uc-center p {
-    text-align: center;
-    margin: 20px 10px 0 10px;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.2em;
-    opacity: 70%;
-  }
-
-  .uc-center a {
-    color: white;
-  }
-
-  .uc-right {
-    width: 25%;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 1em;
-    background-color: darkblue;
-    box-shadow: 5px 5px 15px black;
-    margin-top: 15px;
-  }
-
-  .uc-right img {
-    width: 100%;
-    height: 225px;
-    border-radius: 1em;
-    padding: 10px 10px 0 10px;
-  }
-
-  .uc-right p {
-    text-align: center;
-    margin: 20px 10px 0 10px;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.2em;
-    opacity: 70%;
-  }
-
-  .uc-right a {
-    color: white;
+  .triple_container:nth-child(3) {
+    background-color: blue;
   }
 
   .formulario {
@@ -370,7 +289,7 @@
     justify-content: flex-end;
   }
 
-  .tres {
+  .knowledge {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -380,7 +299,7 @@
     background-color: dodgerblue;
   }
 
-  .uc-left {
+  .triple_container {
     width: 25%;
     height: 310px;
     border: 1px solid black;
@@ -389,82 +308,11 @@
     box-shadow: 5px 5px 15px black;
   }
 
-  .uc-left img {
+  .triple_container img {
     width: 100%;
     height: 240px;
     border-radius: 1em;
     padding: 10px 10px 0 10px;
-  }
-
-  .uc-left p {
-    text-align: center;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.4em;
-    opacity: 70%;
-  }
-
-  .uc-left a {
-    color: white;
-    padding: 0;
-  }
-
-  .uc-center {
-    width: 25%;
-    height: 310px;
-    border: 1px solid black;
-    border-radius: 1em;
-    background-color: red;
-    box-shadow: 5px 5px 15px black;
-  }
-
-  .uc-center img {
-    width: 100%;
-    height: 240px;
-    border-radius: 1em;
-    padding: 10px 10px 0 10px;
-  }
-
-  .uc-center p {
-    text-align: center;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.4em;
-    opacity: 70%;
-  }
-
-  .uc-center a {
-    color: white;
-    padding: 0;
-  }
-
-  .uc-right {
-    width: 25%;
-    height: 310px;
-    border: 1px solid black;
-    border-radius: 1em;
-    background-color: blue;
-    box-shadow: 5px 5px 15px black;
-  }
-
-  .uc-right img {
-    width: 100%;
-    height: 240px;
-    border-radius: 1em;
-    padding: 10px 10px 0 10px;
-  }
-
-  .uc-right p {
-    text-align: center;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.4em;
-    opacity: 70%;
-  }
-
-  .uc-right a {
-    color: white;
-    padding: 0;
   }
 
   #footer h3 {
@@ -482,7 +330,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .tres {
+  .knowledge {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -492,7 +340,7 @@
     background-color: dodgerblue;
   }
 
-  .uc-left {
+  .triple_container {
     width: 25%;
     height: 450px;
     border: 1px solid black;
@@ -502,83 +350,10 @@
     margin-top: 15px;
   }
 
-  .uc-left img {
+  .triple_container img {
     width: 100%;
     height: 340px;
     border-radius: 1em;
-  }
-
-  .uc-left p {
-    text-align: center;
-    margin: 35px 10px 0 10px;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.4em;
-    opacity: 70%;
-  }
-
-  .uc-left a {
-    color: white;
-  }
-
-  .uc-center {
-    width: 25%;
-    height: 450px;
-    border: 1px solid black;
-    border-radius: 1em;
-    background-color: red;
-    box-shadow: 5px 5px 15px black;
-    margin-top: 15px;
-  }
-
-  .uc-center img {
-    width: 100%;
-    height: 340px;
-    border-radius: 1em;
-    padding: 10px 10px 0 10px;
-  }
-
-  .uc-center p {
-    text-align: center;
-    margin: 35px 10px 0 10px;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.4em;
-    opacity: 70%;
-  }
-
-  .uc-center a {
-    color: white;
-  }
-
-  .uc-right {
-    width: 25%;
-    height: 450px;
-    border: 1px solid black;
-    border-radius: 1em;
-    background-color: darkblue;
-    box-shadow: 5px 5px 15px black;
-    margin-top: 15px;
-  }
-
-  .uc-right img {
-    width: 100%;
-    height: 340px;
-    border-radius: 1em;
-    padding: 10px 10px 0 10px;
-  }
-
-  .uc-right p {
-    text-align: center;
-    margin: 35px 10px 0 10px;
-    text-shadow: 5px 5px 15px black;
-    font-style: italic;
-    font-size: 1.4em;
-    opacity: 70%;
-  }
-
-  .uc-right a {
-    color: white;
   }
 
   #footer h3 {

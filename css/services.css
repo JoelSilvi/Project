@@ -14,11 +14,14 @@ body {
   height: 100vh;
 }
 h1 {
+  width: 100vw;
+  height: 10vh;
   font-size: 3em;
   color: white;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   border-top: #f60 5px solid;
+  padding-top: 1vh;
 }
 
 a:link,
@@ -31,20 +34,19 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%;
-  height: 18vh;
+  width: 100vw;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .box-int {
-  width: 20%;
-  height: 150px;
+  width: 30vw;
+  height: 25vh;
 }
 
 .box-int img {
-  width: 100%;
-  height: 150px;
+  width: 20vw;
+  height: 20vh;
   border-radius: 50%;
   box-shadow: 5px 5px 15px rgb(161, 102, 102);
   border: 4px solid rgb(56, 55, 55);
@@ -60,6 +62,26 @@ a:active {
   padding: 3px;
 }
 
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.btn button {
+  width: 35vw;
+  height: 8vh;
+  font-size: 1.7em;
+  font-family: "Permanent Marker", cursive;
+  background-color: rgb(133, 202, 29);
+  color: white;
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgb(161, 102, 102);
+  border: 1px snow solid;
+}
+
 #footer {
   width: 100%;
   min-height: 34%;
@@ -67,11 +89,11 @@ a:active {
 }
 
 #footer h3 {
-  background-color: black;
   font-size: 3vw;
   text-align: center;
   position: absolute;
   bottom: 0;
+  padding-top: 1vh;
   width: 100%;
   height: 50px;
   color: white;

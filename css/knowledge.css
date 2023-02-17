@@ -10,8 +10,10 @@
 }
 
 body {
-  background-color: #1b1b1b;
+  width: 100vw;
   height: 100vh;
+  background: linear-gradient(90deg, #2d71fa 0, #000 100%) padding-box;
+  color: transparent;
 }
 
 h1 {

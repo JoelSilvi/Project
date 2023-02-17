@@ -130,10 +130,11 @@
   }
 
   .double_container span {
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-family: "Permanent Marker", cursive;
     border-bottom: double 10px #f60;
     color: black;
+    letter-spacing: 1.5vw;
   }
 
   .double_container .cont-p {

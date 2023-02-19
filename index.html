@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ruta 66</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+      <script src="app.js" defer></script>
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -15,15 +18,15 @@
       ></a>
       <nav class="menu">
         <ul class="lista">
-          <li><a href="#final">Servicios</a></li>
-          <li><a href="#contenedores">Aprender</a></li>
-          <li><a href="#cuatro">Contacto</a></li>
+          <li class="liMenu"><a href="#final">Servicios</a></li>
+          <li class="liMenu"><a href="#contenedores">Aprender</a></li>
+          <li class="liMenu"><a href="#cuatro">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section class="entradaPortada">
         <article id="portada">
           <img
             class="img-principal"
@@ -110,11 +113,11 @@
 
         <fieldset>
           <legend>Formulario de Contacto</legend>
-          <article id="img-form">
+          <article id="img-form" class="box-show">
             <img src="images/logo.jpg" alt="logo" />
           </article>
 
-          <article id="form-cajas">
+          <article id="form-cajas" class="box-show">
             <input
               name="name"
               type="text"
@@ -125,7 +128,7 @@
             />
           </article>
 
-          <article id="form-cajas">
+          <article id="form-cajas" class="box-show">
             <input
               name="email"
               type="email"
@@ -136,7 +139,7 @@
             />
           </article>
 
-          <article id="form-cajas">
+          <article id="form-cajas" class="box-show">
             <input
               name="asunto"
               type="text"
@@ -146,7 +149,7 @@
             />
           </article>
 
-          <article id="comentarios">
+          <article id="comentarios" class="box-show">
             <textarea
               name="comentario"
               type="comentario"
@@ -155,7 +158,7 @@
             ></textarea>
           </article>
 
-          <button type="submit">Enviar</button>
+          <button class="box-show" type="submit">Enviar</button>
         </fieldset>
       </section>
       <!-- 
@@ -176,5 +179,4 @@
     </footer>
   </body>
 
-  <!-- <script src="app.js"></script> -->
 </html>

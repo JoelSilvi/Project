@@ -15,7 +15,7 @@
     height: 50px;
     border-radius: 100px;
     border: medium solid orangered;
-    margin: 0 0 0 30px;
+    margin: 0 0 20px 30px;
     box-shadow: 10px 10px 15px black;
     opacity: 80%;
   }
@@ -44,14 +44,14 @@
   .menu ul {
     display: flex;
     list-style-type: none;
-    margin: 0 10px 10px 20px;
+    margin: 0 10px 20px 20px;
     font-family: "Permanent Marker", cursive;
   }
 
   .menu li a {
     text-decoration: none;
     color: black;
-    margin: 0 10px 0px 20px;
+    margin: 0 10px 20px;
     font-size: 1.5em;
   }
 
@@ -66,10 +66,9 @@
   #portada {
     display: flex;
     width: 80%;
-    height: 430px;
+    height: 400px;
     justify-content: space-around;
     margin: 0 auto;
-    padding-top: 100px;
     box-shadow: 10px 10px 15px black;
     border-radius: 1em;
   }
@@ -77,6 +76,7 @@
   #portada .img-principal {
     box-shadow: 10px 10px 50px black;
     width: 0;
+    height: 400px;
     flex-grow: 1;
     object-fit: cover;
     opacity: 0.9;
@@ -85,11 +85,12 @@
   }
 
   #portada .img-principal:hover {
-    box-shadow: 10px 15px 100px black;
     cursor: pointer;
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+    opacity: 70%;
+    box-shadow: 5px 5px 15px black;
   }
 
   a:link,
@@ -181,7 +182,6 @@
     text-shadow: 5px 5px 15px black;
     font-style: italic;
     font-size: 1.2em;
-    /* opacity: 70%; */
   }
 
   .triple_container:nth-child(2) {
